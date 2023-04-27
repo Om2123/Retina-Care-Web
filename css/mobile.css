@@ -1,0 +1,454 @@
+/* CSS Document */
+/*--coded by sampark infoways--*/
+
+@media only screen and (min-width : 768px) 
+{
+.nav.navbar-nav > li:hover > ul.sub-menu
+{
+display:block;
+-webkit-animation: fadeInUp 500ms;
+animation: fadeInUp 500ms;
+}
+
+ul.sub-menu {
+display: none;
+list-style: none;
+padding: 12px 0px;
+margin: 0;
+position: absolute;
+top:50px;
+left:-20px;
+background:rgba(255,255,255,.9);
+width:210px;
+box-shadow: 0px 0px 4px #c8c8c8;
+display: none;
+z-index: 999;
+height:auto;
+}
+
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1200px)
+{
+#awards .col-lg-4 .panel .panel-body .intro-transparent
+{
+padding:15px 70px 10px 15px;
+}
+#slider .item .caption
+{
+top:36%;
+}
+}
+
+@media only screen and (max-width : 992px)
+{
+h2
+{
+line-height:32px;
+}
+
+.navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+ .navbar-toggle
+{
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+-ms-border-radius:50%;
+-o-border-radius:50%;
+border-radius:50%;
+height:43px;
+border:2px solid #FB6125 !important;
+transition:all .3s;
+display:block;
+}
+.navbar-toggle:hover
+{
+background-color:#06669E !important;
+border:2px solid #FFFFFF !important;
+}
+.navbar-toggle:active
+{
+background-color:transparent !important;
+}
+.navbar-toggle:hover .icon-bar
+{
+background-color:#FFFFFF !important;
+}
+.icon-bar
+{
+background-color:#FB6125 !important;
+}
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+
+#menubar .navbar .navbar-brand img
+{
+width:36%;
+}
+#menubar .navbar .navbar-brand
+{
+margin:0px 0px 0px 0px;
+}
+#slider .item .caption
+{
+top:30%;
+width:50%;
+}
+#slider .item .caption h1
+{
+font-size:36px;
+line-height:34px;
+}
+h1
+{
+font-size:40px;
+}
+#verticle-nav .nav-pills li a img
+{
+margin:-75px 0px 0px 0px !important;
+height:60px;
+width:60px;
+padding:0px;
+border:3px solid #FFFFFF;
+}
+
+#awards .col-lg-6 .doc-text-wrap
+{
+padding:15px 50px 15px 15px;
+}
+.mts-50
+{
+margin-top:0px;
+}
+}
+ 
+@media only screen and (max-width : 768px) 
+{
+    .fast-contact{
+        margin-top: 10px!important;
+    }
+    .docdoc{
+        display: none;
+    }
+h1
+{
+line-height:36px;
+}
+#top-header .container .col-lg-6
+{
+text-align:center;
+}
+#menubar .navbar .navbar-brand
+{
+margin:-8px 0px 0px 15px;
+}
+.navbar-toggle
+{
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+-ms-border-radius:50%;
+-o-border-radius:50%;
+border-radius:50%;
+height:43px;
+border:2px solid #FB6125 !important;
+transition:all .3s;
+}
+.navbar-toggle:hover
+{
+background-color:#06669E !important;
+border:2px solid #FFFFFF !important;
+}
+.navbar-toggle:active
+{
+background-color:transparent !important;
+}
+.navbar-toggle:hover .icon-bar
+{
+background-color:#FFFFFF !important;
+}
+.icon-bar
+{
+background-color:#FB6125 !important;
+}
+.navbar-collapse
+{
+border-top:none !important;
+}
+#menubar .navbar-nav li a
+{
+margin:0px !important;
+padding:10px 15px;
+}
+#slider .item .container
+{
+padding:0px !important;
+}
+#slider .item .caption
+{
+top:100%;
+max-width:100% !important;
+text-align:center;
+position:relative;
+}
+#slider .item .caption h1
+{
+font-size:26px;
+}
+#about_us .container
+{
+text-align:center;
+}
+#about_us .col-lg-5 .media-left i
+{
+display:none;
+}
+#about_us .col-lg-5 .media-body h4
+{
+margin-top:0px;
+}
+#services .col-lg-7 .tab-content
+{
+text-align:center;
+}
+#verticle-nav .nav-pills li
+{
+display:block !important;
+}
+#verticle-nav .nav-pills li a img
+{
+margin: auto!important;
+}
+#awards .container
+{
+text-align:center;
+}
+#awards .progress .progress-bar
+{
+width:0px !important;
+}
+#awards .col-lg-12 ul li
+{
+list-style:none;
+}
+#doctors .col-lg-6 .doc-text-wrap
+{
+position:relative;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background-color:rgba(6,102,158,.6);
+padding:15px 15px 15px 15px;
+}
+#testimonial .item
+{
+padding:0px 15px;
+}
+#call-to .container
+{
+text-align:center;
+}
+.pd-0
+{
+padding:15px;
+}
+.pd-right
+{
+padding-right:15px;
+}
+.pd-left
+{
+padding-left:15px;
+}
+#footer
+{
+text-align:center;
+}
+#footer .progress .progress-bar
+{
+width:0px !important;
+}
+#footer .info-con .col-lg-4 .media-left,
+#footer .col-lg-4 .media-left
+{
+display:block;
+}
+#copyright .container .col-lg-6
+{
+text-align:center;
+}
+#call-to
+{
+background-size:cover;
+height:auto;
+}
+
+
+/*---about-us--*/
+.bn-transparent
+{
+text-align:center;
+}
+#about-us-sec .container
+{
+text-align:center;
+}
+#about-us-sec .col-lg-6 .para-2
+{
+margin:0px;
+}
+#vision-mission .col-lg-6
+{
+margin-bottom:20px;
+}
+
+/*---services----*/
+#our-services .col-lg-6,
+#our-services .col-lg-12
+{
+text-align:center;
+}
+#our-services .col-lg-12 .progress .progress-bar
+{
+width:0px !important;
+}
+#our-services h2
+{
+margin-top:12px;
+font-size:36px;
+}
+#our-services .draggable .drag-image .drag-wrap
+{
+width:100%;
+}
+#our-services .draggable .drag-image .drag-wrap .drag-icon i
+{
+display:none;
+}
+/*----contact us---*/
+#contact-us .col-lg-4
+{
+margin-bottom:12px;
+}
+}
+
+@media only screen and (min-width : 700px) and (max-width : 768px)
+{
+#slider .item .caption
+{
+top:100%;
+width:100%;
+text-align:center;
+position:relative;
+}
+}
+
+@media only screen and (min-width : 200px) and (max-width : 700px)
+{
+#slider .item .caption
+{
+top:100%;
+width:100%;
+text-align:center;
+position:relative;
+}
+#slider .item .caption h1
+{
+font-size:20px;
+line-height:20px;
+}
+#slider .item .caption p
+{
+margin-top:5px;
+}
+#hiring .col-lg-6
+{
+text-align:center;
+}
+#hiring .col-lg-6 img
+{
+margin-top:20px;
+}
+#achievements .col-lg-12
+{
+text-align:center;
+}
+#achievements .progress .progress-bar
+{
+width:0% !important;
+}
+#tpa .col-lg-12
+{
+text-align:center;
+}
+#tpa .progress .progress-bar
+{
+width:0% !important;
+}
+}
+
+@media only screen and (min-width : 200px) and (max-width : 500px)
+{
+#awards .col-lg-4 .panel .panel-body .intro-transparent
+{
+padding:16px;
+position:relative;
+}
+}
+@media only screen and (max-width : 374px)
+{
+.navbar-brand
+{
+width:75%;
+}
+} 
+
+@media only screen and (max-width : 650px)
+{
+.fa-chevron-up
+{
+position: fixed !important;
+left:85% !important;
+display:none;
+}
+}
+
+@media only screen and (max-width : 426px)
+{
+#top-header .col-lg-6 .btn-danger
+{
+width:100%;
+margin-bottom:5px;
+} 
+
+
+
+
+}
+
+
+
+
+
+
+
+
